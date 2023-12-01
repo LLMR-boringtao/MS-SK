@@ -5,7 +5,7 @@ import os
 import shutil
 import asyncio
 
-api_key="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"
+api_key=""
 
 kernel = sk.Kernel()
 kernel.add_text_completion_service("openai-completion", OpenAIChatCompletion("gpt-3.5-turbo-0301", api_key))
